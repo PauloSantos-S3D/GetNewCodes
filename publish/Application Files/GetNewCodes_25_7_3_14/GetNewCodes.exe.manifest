@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GetNewCodes.exe" version="25.7.3.14" publicKeyToken="fa5dc51a5f8b8a3a" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="Resources\testeE.ico" asmv2:publisher="S3D, Lda" co.v1:suiteName="GetNewCodes" asmv2:product="GetNewCodes" asmv2:supportUrl="https://www.s3d.pt/" co.v1:errorReportUrl="https://www.s3d.pt/assistencia-tecnica" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GetNewCodes" version="25.7.3.14" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="GetNewCodes.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="Internet" Description="Default rights given to Internet applications" Unrestricted="true" ID="Custom" SameSite="none" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GetNewCodes.exe" size="105408">
+      <assemblyIdentity name="GetNewCodes" version="25.7.3.14" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>katXhOWM5kjDsY+HJwK4vaReDqKGh8tLOGReL76q+eM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WrapFTP.dll" size="24576">
+      <assemblyIdentity name="WrapFTP" version="1.0.17.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1ZGUwivvPIPduejrwKlx60iIKSDTGuxJRt9/T2Yncp8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="getcodes.ico" size="3774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Nk+q09TjD6z9S9qtWp2VTHXElwXA5J8VKgfqmXAGIwE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GetNewCodes.exe.config" size="5149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h1Ico5RXAB5n3iGxzSZkEW4375/lHawwLuPO2WUwcr8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\testeE.ico" size="1150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m8a3pd/e1eyLIc4ySOWz4eY+Ba1cWJMZuOboJj3kWbU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=S3D\paulo.santos" issuerKeyHash="47ad0b7f3d3899c41fd65154b57064e04d465d52" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sKMfoFRXY6EFMhMPCDHppmJLpUit0xdysodN9syz+Dw=</DigestValue></Reference></SignedInfo><SignatureValue>TUEQxJ4IIUK+lE7SbdE9g2ZBTWuYrXmPsKc4paYrqy2B5sJhHrhI0HePefFtt8T9CATF5KmeYP7Zj1BsGaHISV12Xoyvsgd6NHRnN9H55P18twbGW7hnFNS48WKliePqKh73W2CTlmSsF6J2/L+KjSSyvu6iM8VmUjy5ENFbdg0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>o7jY3b03vtOTQExKarUyAFbXp1x6bmbE6Fx9JlP1T3fNMalaY02hZX94mgEIWzKgPRj4KLxkk30yoPzf/Jbx00lEdrJEc+QiJaGUY1TpWuB9C2rE/Xi1PzrR8UcY1pXdWoigm1/tTTadsxWdhJNSbbIWIgjChoIvY8G1rLCnp1k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3cf8b3ccf64d87b27217d3ad48a54b62a6e931080f133205a1635754a01fa3b0" Description="" Url=""><as:assemblyIdentity name="GetNewCodes.exe" version="25.7.3.14" publicKeyToken="fa5dc51a5f8b8a3a" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=S3D\paulo.santos</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y43MuktwW7iLYaG7rDje+wmrZpMVw0G4sjd6AFflgNk=</DigestValue></Reference></SignedInfo><SignatureValue>n6pyAsIEEG7xWBZM6WBkzyuWrLcZH2k6kMyWw867Jq4hBtZGLVFTI5iR7skcMzjhHnYgBCS2voCjziIX54QnpkgoiOnw2GsTozucljVU3te2VXD6WwW2H9SOTT6uthBmstS79kqyt8Geuu9Cj8hzd7GZC/coNRZTkPCu72mX05g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>o7jY3b03vtOTQExKarUyAFbXp1x6bmbE6Fx9JlP1T3fNMalaY02hZX94mgEIWzKgPRj4KLxkk30yoPzf/Jbx00lEdrJEc+QiJaGUY1TpWuB9C2rE/Xi1PzrR8UcY1pXdWoigm1/tTTadsxWdhJNSbbIWIgjChoIvY8G1rLCnp1k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQTScpSdOMQr9E7JsavFvffzANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUwAzAEQAXABwAGEAdQBsAG8ALgBzAGEAbgB0AG8AczAeFw0yNTA0MTAxMTEzMzJaFw0yNjA0MTAxNzEzMzJaMCsxKTAnBgNVBAMeIABTADMARABcAHAAYQB1AGwAbwAuAHMAYQBuAHQAbwBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjuNjdvTe+05NATEpqtTIAVtenXHpuZsToXH0mU/VPd80xqVpjTaFlf3iaAQhbMqA9GPgovGSTfTKg/N/8lvHTSUR2skRz5CIloZRjVOla4H0LasT9eLU/OtHxRxjWld1aiKCbX+1NNp2zFZ2Ek1JtshYiCMKGgi9jwbWssKenWQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEDiXiWJCTApzGsq44ELKULR9oBlrDxsd3Zl9aWswaOgLaUzBlx3VTmJRZp4HEbCI21qMAAMWW0Pa11tnjCxzt22q8Fa+CAXsQqmSUnp8OFM/5ODZgyWco4hiJ+79kZpzKorAUUA5DwvEM7H42eDSYmWHtRAIxgXPZlWktEeomJi</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
