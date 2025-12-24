@@ -2,7 +2,7 @@
 <div align="center">
 <p align="center"><span style="font-size:24px; font-weight:bold;">README</span></p>
 
-This software is only for [Cimatron Users](https://www.cimatron.com/en) and only for update purposes. \
+This repository and software is only for [Cimatron Users](https://www.cimatron.com/en) and only for update purposes. \
 Any another use is not guaranteed or authorized
 </div>
 
